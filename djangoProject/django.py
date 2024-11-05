@@ -14,15 +14,21 @@ if x==code:
     print("4 loans and savings")
     print("5 financial services ")
     print("6 lipa na mpesa")
-    print("7 my account")
-    print("pochi la biashara")
-    print("mpesa ratiba")
+    print("7.my account")
+    print("8.pochi la biashara")
+    print("9.mpesa ratiba")
     print(".............................")
     print("enter your choice")
 
-x=int(input('choice:.... '))
+x=int(input('choice:'))
 if x==1:
     print("enter phone:" )
+    def is_number(entry):
+    if isinstance(entry, (int, float)):
+        return True
+    else:
+        raise ValueError("Entry is not a number.")
+
 while chances>=0:
     if choice==
     x=int(input('Enter PIN Number: '))
